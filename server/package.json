@@ -1,0 +1,21 @@
+{
+    "name": "auth",
+    "version": "1.0.0",
+    "description": "基于node.js+express+mongodb+Vue2.0+Element UI的restful api开发用户模型认证相关",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "LXG",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^1.0.2",
+        "body-parser": "^1.17.2",
+        "express": "^4.15.4",
+        "jsonwebtoken": "^7.4.2",
+        "mongoose": "^4.11.7",
+        "morgan": "^1.8.2",
+        "passport": "^0.4.0",
+        "passport-http-bearer": "^1.0.1"
+    }
+}
